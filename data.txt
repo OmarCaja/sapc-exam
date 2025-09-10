@@ -1,0 +1,1516 @@
+
+---Clean Core for SAP S/4HANA Cloud---
+
+Which of the following are challenges for customers related to landscape complexity?
+There are two correct answers.
+
+Adapting business processes.
+
+Responding to changing customer needs.
+
+Analytical flexibility.
+
+Macroeconomic unpredictability.
+
+Correct: 0,1
+
+Which of the following are challenges for customers related to technological innovation?
+There are two correct answers.
+
+Fostering Agility
+
+Optimizing business processes
+
+Sustainability
+
+Increased customer demand
+
+Correct: 0,1
+
+Which of the following are challenges for customers related to business change?
+There are three correct answers.
+
+Disruption of supply chains.
+
+Changing customer preferences.
+
+Regulatory compliance
+
+Data and device security.
+
+Correct: 0,1,2
+
+Which of the following does SAP recommend that customers choose from when deciding which SAP S/4HANA Cloud implementation approach to take?
+There are three correct answers.
+
+New implementation
+
+System conversion
+
+System landscape transformation
+
+Lift and shift
+
+Correct: 0,1,2
+
+Which of the following are dimensions of clean core?
+There are three correct answers.
+
+Procedures
+
+Extensibility
+
+Integrations
+
+Operations
+
+Correct: 1,2,3
+
+Which of the following are benefits of clean core for users?
+There are three correct answers.
+
+Performance
+
+Cleansed data
+
+System reliability
+
+Enhanced collaboration
+
+Correct: 0,1,2
+
+Which of the following are benefits of clean core for IT?
+There are three correct answers.
+
+Software stack
+
+Cloud native development
+
+Business process flexibility
+
+Cost savings
+
+Correct: 0,1,2
+
+Which of the following are benefits of clean core for companies?
+There are three correct answers.
+
+Streamlined operations
+
+Improved decision-making
+
+Cost savings
+
+Business process flexibility
+
+Correct: 0,1,2
+
+Which of the following are ways to get and keep operations clean?
+There are two correct answers.
+
+SAP Cloud Application Lifecycle Management
+
+SAP Solution Manager
+
+SAP S/4HANA Cloud Extensibility Model
+
+ABAP Cloud Development Model
+
+Correct: 0,1
+
+Which of the following are definitions of "data" in the context of SAP S/4HANA Cloud?
+There are three correct answers.
+
+Configuration
+
+Master
+
+Transactional
+
+Structure
+
+Correct: 0,1,2
+
+Which of the following are tools that can be used during implementation projects to help achieve a clean core?
+There are three correct answers.
+
+SAP Data Migration Cockpit.
+
+SAP Fiori Custom Code Migration App.
+
+SAP Cloud Application Lifecycle Management.
+
+SAP BTP Cockpit
+
+Correct: 0,1,2
+
+Which of the following are ways to get and keep integrations clean?
+There are three correct answers.
+
+Base integrations on standard APIs.
+
+Use SAP Integration Suite.
+
+Use SAP Event Mesh.
+
+Use SAP Application Extension Methodology.
+
+Correct: 0,1,2
+
+Which of the following are ways to get and keep extensions clean?
+There are three correct answers.
+
+Use the three-tier model.
+
+Use released APIs only.
+
+Precisely understand the requirements.
+
+Avoid them.
+
+Correct: 0,1,2
+
+Which of the following are ways to get and keep business processes clean?
+There are two correct answers.
+
+Establish an organizational structure.
+
+Set up a business process hierarchy.
+
+Ensure data accuracy in the database.
+
+Use SAP Application Interface Framework.
+
+Correct: 0,1,2
+
+
+---Technical Essentials of SAP Commerce Cloud---
+
+
+Which of the following statements about the Composable Storefront are correct?
+There are two correct answers.
+
+It is a JavaScript storefront for SAP Commerce Cloud.
+
+It is an extensible, upgradable, and modern storefront.
+
+It contains one library.
+
+It is not a PWA-compliant storefront.
+
+0,1
+
+Which tools are required during the development of the Composable Storefront?
+There are three correct answers.
+
+An IDE, such as Visual Studio Code
+
+ImageMagick
+
+Maven
+
+Angular CLI
+
+Node and package manager
+
+0,3,4
+
+Which Web service API is used by the Composable Storefront to communicate with SAP Commerce Cloud?
+Choose the correct answer.
+
+SOAP
+
+ODATA
+
+RESTful
+
+JMS
+
+2
+
+Which statements about the Composable Storefront Routing are correct?
+There are two correct answers.
+
+It supports SEO.
+
+It cannot decide which information is included in the URL.
+
+It cannot keep legacy URLs working.
+
+It can maintain application state in URLs.
+
+0,3
+
+Which of the following features are provided out-of-the-box by the Composable Storefront?
+There are two correct answers.
+
+Cancellations and Returns
+
+Warehouse Management
+
+Social Network Sharing
+
+Customer Interests
+
+0,3
+
+What are the characteristics of a customization?​
+There are two correct answers.
+
+It's part of a segment.
+
+Multiple customizations can apply at the same time.
+
+It defines a personalized search profile or promotion.
+
+It contains variations.
+
+1,3
+
+How would you go about creating a variation in an existing customization?
+There are two correct answers.
+
+Use the SmartEdit Advanced Edit mode
+
+Use the SmartEdit Personalization mode
+
+Select the Customize tab to create the variation
+
+Select the Library tab to create the variation
+
+1,3
+
+Which of the following statements are true regarding the configuration of the customer experience calculation process?​
+There are two correct answers.
+
+It is stored in a CxConfig database item.
+
+It is stored in a *-spring.xml configuration file.
+
+It can be associated with multiple BaseSites.
+
+It is specific to a single BaseSite.
+
+0,2
+
+How does a user become affiliated with a segment?
+There are two correct answers.
+
+Manual assignment in SmartEdit.
+
+Manual Assignment in Backoffice.
+
+Through integration with SAP Emarsys.
+
+Automatic assignment by a Commerce Customization.
+
+1,2
+
+How can the SAP Commerce Cloud shopping experience be personalized for customers?
+There are two correct answers.
+
+CMS Restrictions
+
+Segmentation
+
+Workflows
+
+GDPR
+
+Process Engine
+
+0,1
+
+Which of the following statements about search operations based on Flexible Search are correct?
+There are three correct answers.
+
+Full-text searches from the storefront are translated into a flexible search query.
+
+Generic Search queries are always translated into flexible search queries.​
+
+Requesting the product details page triggers a flexible search query​.
+
+The Backoffice advanced search functionality is a more type-safe alternative to flexible search.​
+
+Flexible search queries are always responded to from the database or cache, and never from Solr.​​
+
+1,2,4
+
+Which of the following statements about the Search API are correct?
+There are two correct answers.
+
+A SpringBean for a FacetSearchListener is automatically recognized by the Commerce Server after it restart​s.
+
+A Search Query can be created empty or prefilled.​
+
+A Search Query is executed using the facetSearchService.
+
+The FacetSearchService.search() method returns a List​
+
+1,2
+
+Which indexing operations are supported by Solr?
+There are two correct answers.
+
+ALL
+
+UPDATE
+
+PARTIAL_UPDATE
+
+REMOVE
+
+1,2
+
+You configured an indexed property of type "text" in your Solr index. Which of the following statements about Solr searches for that property are correct?
+There are two correct answers.
+
+Solr can find a match only for the complete and case sensitive text​.
+
+When the indexed property value changes, Solr can find it only after a full indexer operation​.
+
+Solr can find a match for the complete and not case sensitive text​.
+
+Solr can find even individual tokens of the text​.
+
+2,3
+
+Using SmartEdit, which settings are configurable in the Search Text Box?
+There are three correct answers.
+
+The sorting the results.
+
+The minimum characters to type before a request is triggered.
+
+The maximum amount of suggestions.
+
+Display product images.
+
+Bypass the cache for faster results.
+
+1,2,3
+
+
+Which of the following statements are correct regarding the merging principles of search profiles?
+There are two correct answers.
+
+For merging simple search profiles, the first stage is the internal merging following the category hierarchy.
+
+Merging order is determined by the list order in the activation set.
+
+Merging order is determined by priority in personalization variations.
+
+All search profiles participate in the merging process.​
+
+1,2
+
+Which of the following statements are correct about personalized search profiles?
+There are two correct answers.
+
+A personalized search profile must be associated with an active variation.
+
+A personalized search profile must be added to an activation set.
+
+Within one customization, the search profiles associated with different variations cannot be merged.
+
+Merging will not happen for multiple search profiles associated with the same variation.
+
+0,1
+
+
+What configurations are possible in a Search Profile?
+There are three correct answers.
+
+Facets
+
+Boost Rules and Boost Items.
+
+Categories
+
+Sorts
+
+Variations
+
+0,1,3
+
+Which search profile types are supported in the Adaptive Search module?​
+There are two correct answers.
+
+Multi-Dimensional Search Profile
+
+Simple Search Profile
+
+Classification Search Profile
+
+Category-Aware Search Profile
+
+1,3
+
+In which Backoffice cockpit can you create search profiles?
+There are two correct answers.
+
+Product Cockpit
+
+Administration Cockpit
+
+Customer Support Cockpit
+
+Adaptive Search Cockpit
+
+1,3
+
+How can you activate a Search Profile?​
+There are two correct answers.
+
+Add it to an activation set.
+
+Set active property to true in the search profile.
+
+Associate it with a user group.
+
+Associate it with an active variation/target group.
+
+0,3
+
+
+Which of the following properties are mandatory for a promotion rule to be active on a storefront?
+There are three correct answers.
+
+Rule Group
+
+Web site
+
+Priority
+
+Code
+
+Description​
+
+1,2,3
+
+You must create two promotions with the requirement that if promotion A is fired, promotion B must not be fired. What do you do?
+There are two correct answers.
+
+Make sure promotion A’s priority value is higher than promotion B.
+
+Assign the promotions to two different Web site groups.
+
+Assign the promotions into two different rule groups with the exclusivity property set to true.
+
+Assign the promotions into one rule group with the exclusivity property set to true.
+
+1,3
+
+After a promotion rule is created in Backoffice, in what format is the corresponding source rule stored in the database?
+Choose the correct answer.
+
+JSON
+
+XML
+
+ImpEx
+
+DATA
+
+0
+
+Which of the following rule-aware objects (RAOs, that is, conditions or actions) are provided in the promotion module out of the box?
+There are three correct answers.
+
+Product RAO
+
+Web site RAO
+
+Newsletter RAO
+
+Category RAO
+
+Customer RAO
+
+0,3,4
+
+What are the typical steps to implement a new condition type before enabling it in the rule builder in Backoffice?
+There are three correct answers.
+
+Create or extend the related RAO.
+
+Implement a condition evaluator.
+
+Implement a condition converter.
+
+Implement a RAO populator.
+
+Implement a condition translator.
+
+0,3,4
+
+What can you configure in a Multi-Code Coupon in Backoffice?
+There are two correct answers.
+
+Maximum redemptions per customer.
+
+The start/end dates when the coupon is active.
+
+The configuration for the coupon code generation.
+
+The coupon code to be redeemed directly.
+
+1,2
+
+If you want to redeem a multi-code coupon on the storefront, what typical steps must you perform?
+There are two correct answers.
+
+Configure the redeemable unique coupon code in Backoffice and apply it on the storefront.
+
+Define an action in the coupon instance in Backoffice.
+
+Activate the coupon directly, with or without a validity period.
+
+Publish a promotion that contains the coupon as a condition.
+
+2,3
+
+
+What are the out-of-the-box conditions that you can combine with a coupon in a promotion?
+There are two correct answers.
+
+A customer who belongs to a user group.​
+
+A customer consents to receiving the newsletter with campaign information.​
+
+A customer registers an interest in a specific product.​
+
+A customer buys a product for a specific category.​
+
+0,3
+
+What factors must you consider when you use a customer coupon?
+There are two correct answers.
+
+It can be activated for anonymous and registered customers.
+
+It is automatically redeemed once activated for a certain customer.
+
+It can be activated for a customer through accessing a claiming URL.
+
+It can be activated for a customer by a direct assignment through ASM.
+
+2,3
+
+What can you configure in a Single-Code Coupon in Backoffice?​
+There are two correct answers.
+
+Maximum redemptions per customer.
+
+Discounted percentage value granted by the coupon.
+
+Eligible users or user groups of the coupon.
+
+Maximum total redemptions.
+
+0,3
+
+
+We can use @CacheControl to annotate the controller class for managing caching. Which of the following directive-descriptions are correct when using the annotation?
+There are two correct answers.
+
+PUBLIC - Any cache MAY store the response, unless the response is deemed noncacheable or is only cacheable within a private cache.
+
+PRIVATE - The response MUST NOT be used to satisfy a subsequent request without successful validation on the origin server.
+
+NO_STORE - A cache MUST NOT store any part of either the immediate request or response.
+
+MUST_VALIDATE - Once it has become stale, a cache MUST NOT use the response to satisfy subsequent requests without successful validation on the origin server.
+
+2,3
+
+What are the major features and benefits of the OCC module?
+There are two correct answers.
+
+It allows Commerce customers to enable touch points and channels without lengthy and costly IT cycles.
+
+It enables reusing commerce processes and data.
+
+It enables commerce to send data to external systems through RESTful APIs.
+
+Its RESTful APIs can be configured in runtime and extended through Backoffice UI.
+
+0,1
+
+What should we pay attention to when working with an OCC extension?
+There are two correct answers.
+
+The name of the extension must end with "occ."
+
+After implementing a new service, there is no need to register it in -spring.xml as the spring context is automatically filled.
+
+We must work in the src folder to implement a web service controller.
+
+We must work in the web/src folder to implement a web service controller.
+
+0,2
+
+How do we use the access control roles to restrict access to commerce process or data via OCC customization?
+Choose the correct answer.
+
+They are specified in the spring-security.xml file against unauthorized REST requests.
+
+Roles-related user groups are configured to enable/disable type-based access rights.
+
+They are annotated via @Secured to methods in OCC controllers.
+
+-spring.xml can be used to relate access control roles to restrict method invocation of spring resources.
+
+2
+
+What are the typical approaches to define data mappings from a DTO/Model to a WsDTO?
+There are two correct answers.
+
+Declare field mappings in a web context spring XML file.
+
+Declare field mappings in the -beans.xml to refer to the WsDTO.
+
+Implement a custom Data Mapper and register it in -spring.xml file.
+
+Implement a custom Data populator and append it to an existing Data Mapper in
+
+0,2
+
+How can SAP Commerce Integration API Module integrations be configured?
+Choose the correct answer.
+
+Declaring Spring Beans in *-spring.xml files.
+
+Writing custom Java code in a custom extension.
+
+Using the Integration API Cockpit in the Backoffice
+
+Creating special structures of items through *-items.xml files.
+
+2
+
+Where can the JDBC logging be enabled or disabled?​
+There are three correct answers.
+
+Via the property db.log.active in a .properties file.​
+
+In the global spring context, configure the JDBC Logging bean.​
+
+In Java code: de.hybris.platform.util.Config.setParameter("db.log.active", "true").​
+
+In SAP Commerce Administration Console, Monitoring > Database > JDBC logging.​
+
+In Backoffice, configure the JDBC Logging item.
+
+0,2,3
+
+From version 2211 onwards, SAP Commerce Cloud is and will be versionless. What does that mean?
+There are three correct answers.
+
+We will only have 2211 version from now on and this major version number will not be changed.
+
+We will have a yearly update, with a new release of 2211.x, where x is an incremental number.
+
+We will have a monthly update, with a new release of 2211.x, where x is an incremental number.
+
+Every update can contain patches, bug fixes, security updates, new features, and innovations.
+
+Every update will be cumulative, backward compatible, and supported for 2 years.
+
+0,2,3
+
+Where can more resources (regarding SAP Commerce Cloud) be found?
+There are three correct answers.
+
+Backoffice
+
+https://help.sap.com/ (then, narrow the results by searching for "SAP Commerce Cloud")
+
+https://community.sap.com/
+
+https://learning.sap.com​
+
+HAC (SAP Commerce administration console)​
+
+1,2,3
+
+To assure GDPR compliance in SAP Commerce Cloud, which of the following features are implemented and provided out of the box?
+There are two correct answers.
+
+All consent templates and related consents for each customer can be managed directly in Backoffice.​
+
+A customer can close their account if necessary, and all the customer data is deleted immediately.​
+
+A personal report (also knows as an audit report) can be generated per request but must be manually removed afterwards.​
+
+The sample Composable Storefront, for example, Spartacus Electronics Store, enables a customer to manage his/her consents under the "My Account" page.
+
+0,3
+
+---Expanding upon Technical Essentials of SAP Commerce Cloud---
+
+Which of the following public code repositories are supported?
+There are three correct answers.
+
+SourceForge
+
+GitHub
+
+AWS CodeCommit
+
+Bitbucket
+
+GitLab
+
+1,3,4
+
+How does the Cloud Portal determine the version of SAP Commerce Cloud to use when building your project?
+Choose the correct answer.
+
+You can specify a version without providing the patch number
+
+You must provide the desired patch number when specifying the version
+
+The latest version of SAP Commerce Cloud is automatically used
+
+The SAP Cloud Portal builder consults your SLA agreement to determine the version to use
+
+0
+
+What are the capabilities of the SAP Cloud Portal?
+There are three correct answers.
+
+Monitor performance
+
+Create and restore snapshots
+
+Generate SSL certificates
+
+Deploy builds to provisioned environments
+
+Provision environments for deployment
+
+0,1,3
+
+What information do you need to provide when deploying a build?
+There are three correct answers.
+
+The deployment type
+
+The target environment
+
+The deployment mode
+
+The data access credentials
+
+The platform update mode
+
+1,2,4
+
+
+How does the builder in SAP Cloud Portal identify what to incorporate in a build?
+Choose the correct answer.
+
+It looks at the local.properties file.
+
+It looks at the manifest.xml file.
+
+It looks at the manifest.json file.
+
+It looks at the manifest.mf file.
+
+It looks at the localextensions.xml file.
+
+2
+
+
+What does Spring Security manage in SAP Commerce Cloud?
+There are three correct answers.
+
+Authentication and authorization​
+
+Access to certain item types​
+
+Access to certain pages of the storefront​
+
+Price restriction
+
+Remember me service​
+
+0,2,4
+
+What does an item-based restriction consist of?
+There are three correct answers.
+
+The items the restriction is applied on ​
+
+The principal (user or user group) the restriction will be applied on​
+
+The flexible search query the restriction uses to restrict the items
+
+The condition the restriction should fulfill
+
+The item type the restriction is related to
+
+1,3,4
+
+Which of the following principals can be removed without a problem?
+There are two correct answers.
+
+anonymous​
+
+admingroup​
+
+admin
+
+productmanager​
+
+cmsmanager​
+
+3,4
+
+
+What are the out-of-the-box password security policies in SAP Commerce Cloud?
+There are two correct answers.
+
+regex – uses regular expression to define the formation and length of passwords​
+
+lock – limits password attempts and applies lock-out​
+
+blacklist – defines a list of passwords that can’t be used ​
+
+duration – defines the period passwords need to be updated​
+
+0,2
+
+About the security mechanism: type-based access rights, which of the following statements are correct?​
+There are two correct answers.
+
+It can grant access to individual attributes of types​
+
+It can grant access to some items but deny some other items of the same type​
+
+It is effective out-of-the-box in backoffice, integration API and Service Layer API
+
+It can be granted to a user or user group
+
+0,3
+
+
+Which methods need to be coded when implementing TransactionAwareEvent?
+There are two correct answers.
+
+canPublish()
+
+publishOnCommitOnly()
+
+getId()
+
+publishEvent()
+
+1,2
+
+Which method needs to be overridden when implementing the ClusterAwareEvent interface
+Choose the correct answer.
+
+registerEventListener()
+
+getId()
+
+canPublish()
+
+publishOnCommitOnly()
+
+2
+
+
+Which of the following statements about event systems are correct?
+There are two correct answers.
+
+A software component acting as a source publishes an event that is received by registered event listeners.
+
+Events can be published only locally.
+
+When publishing an event, it's possible to directly control this event to be sent to a certain predefined event listener.
+
+The SAP Commerce Event System is based on the Spring event system
+
+0,3
+
+Which Service is used to publish an event?
+Choose the correct answer.
+
+EventService
+
+ModelService
+
+FlexibleSearchService
+
+ImportService
+
+0
+
+Which of the following statements about asynchronous events are correct?
+There are two correct answers.
+
+Events are processed asynchronously by default
+
+When configuring the PlatformClusterEventSender Spring bean, all non-cluster-aware events will be sent asynchronously.
+
+Network traffic occurs for each event implementing ClusterAwareEvent.
+
+Implementing ClusterAwareEvent is the only way to handle events asynchronously
+
+1,2
+
+Which of the following statements about the process engine are correct?​
+There are two correct answers.
+
+The most important process engine node type is the end node.​
+
+Action nodes need to perform concrete business logic and/or call other services.​
+
+A process structure can be defined in a BPM tool and imported directly into SAP Commerce Cloud.​
+
+The SAP Commerce Process Engine extension allows you to model, support, and monitor business processes.​
+
+1,3
+
+What should you consider when implementing a business process template?
+There are two correct answers.
+
+For each action node, an action implementation class should be defined.
+
+For each node in the process definition XML file, we need to configure a corresponding Spring bean.
+
+There is no way to share data among different actions belonging to a particular process.
+
+Wait node will let the current business process wait until a specific event is generated.
+
+0,3
+
+Which of the following node types are predefined in the business process engine?
+There are two correct answers.
+
+Action node
+
+End node
+
+Start node
+
+Message node
+
+0,1
+
+Which of these statements correctly describe actions in the process engine?
+There are two correct answers.
+
+Actions are performed asynchronously by default.
+
+Some action implementations return at least one action result, but some don’t
+
+Actions implementation must be declared as Spring beans in  my-extension-spring.xml
+
+If an action cannot perform or complete its work due to a temporary reason, it can be processed again later by throwing a RetryLaterException exception or returning Action.RETRY_RETURN_CODE​
+
+2,3
+
+
+Which service is used to create and start a business process based on a specific business process template?
+Choose the correct answer.
+
+ImportService
+
+BusinessProcessService
+
+WorkflowTemplateService
+
+FlexibleSearchService
+
+1
+
+Which Fraud Detection symptoms exist out-of-the-box? ​
+There are three correct answers.
+
+First Time Order Symptom​
+
+Order Entry Symptom​
+
+Order Threshold Symptom​
+
+Order List Symptom​
+
+Scripted Symptom – allows a Groovy script to dynamically define, apply, and evaluate a symptom​
+
+0,1,2
+
+Which of the following functionalities are provided by the basecommerce extension?
+There are three correct answers.
+
+Order splitting and Fraud detection​
+
+Payment integration​
+
+Order history and Order versioning​
+
+Customer support through ASM (Assisted Service Module)​
+
+Definition of typical processes: order-process.xml, consignment-process.xml, return-process.xml
+
+0,1,2
+
+Which of the following statements regarding the out-of-the-box support for Fraud Detection are correct?
+There are three correct answers.
+
+SAP Commerce provides extensible services for performing internal and/or external fraud checks.​
+
+When the points gathered by matching symptoms exceed the first threshold, a manual order check by a CSA (Customer Support Agent) becomes necessary.​
+
+Each Fraud symptom has an assigned point value, and all applicable points are summed up.​
+
+Symptoms as well as their point values are fixed.​
+
+When the points gathered by matching symptoms exceeds the second threshold, the OOTB behavior is to notify the customer and cancel the order automatically.​
+
+0,1,2
+
+
+Which of the following statements regarding the Payment Service Provider (PSP) integration in SAP Commerce Cloud are correct?
+There are two correct answers.
+
+Existing interfaces allow you to integrate external PSPs into SAP Commerce, but none of them are already implemented out-of-the-box.​
+
+PSP integration is freely configurable in the order flow. For example, before and/or after the Fraud check.​
+
+It’s not possible to integrate more than one PSP in SAP Commerce Cloud at the same time.​
+
+Several Payment Service Providers are already fully integrated with SAP Commerce out of the box.
+
+0,1
+
+What does Order Splitting in the basecommerce extension provide out-of-the-box?
+There are two correct answers.
+
+Order Splitting allows orders to be split into several consignments.​
+
+The strategiesList stores a list of strategies for splitting orders (configured as Spring XML declaration). It also allows the addition of custom splitting strategies.
+
+SplitByDeliveryMode and SplitByWarehouse are the only supported OOTB splitting strategies.​
+
+An order containing only one order entry cannot be split further.​
+
+0,1
+
+What is the essential setting needed to run a CronJob item?
+Choose the correct answer.
+
+A trigger that defines the schedule of the CronJob
+
+An email template to generate the notification email after the CronJob is executed
+
+Either a node ID or a node group to specify on which server the CronJob is supposed to run
+
+A User assigned to the session context where the CronJob will be running
+
+3
+
+What is the CronJob functionality typically used for?
+There are three correct answers.
+
+Backing up customer data
+
+Executing step-by-step business logic
+
+Synchronizing product or content catalog versions
+
+Notifying about new order placement
+
+Importing or exporting data from and to external systems
+
+0,2,4
+
+What is the correct order of the steps needed to implement a new CronJob?
+Choose the correct answer.
+
+Define the logic, create ServiceLayerJob, register a spring bean, create a CronJob
+
+Define the logic, register a spring bean, create ServiceLayerJob, create a CronJob
+
+Create ServiceLayerJob, define the logic, register a spring bean, create a CronJob
+
+Create ServiceLayerJob, register a spring bean, define the logic, create a CronJob
+
+1
+
+
+What are the key components that interact with each other to support the execution of a CronJob?
+There are three correct answers.
+
+Job, defines what to do
+
+Task, contains the business logic to execute
+
+Trigger, schedules when a CronJob is started
+
+CronJob, contains the runtime information, like logs, status, and results
+
+Event, triggers a CronJob to run
+
+0,2,3
+
+What are the out-of-the-box ways to start a CronJob directly?
+There are three correct answers.
+
+Click on the action icon of a CronJob in Backoffice
+
+Execute ant runcronjob.
+
+Invoke a RESTful web service via OCC (Omni Commerce Connect).
+
+Set the activation time of a CronJob item in ImpEx.
+
+Use cronJobService from the API.
+
+0,1,4
+
+
+There are different ways to define a workflow template. Which of the following is the most efficient way?
+Choose the correct answer.
+
+Visual Workflow Template Designer
+
+Workflow workspace in Backoffice
+
+WorklflowTemplateService
+
+WorkflowService
+
+0
+
+What are the key features of the Workflow module?
+There are three correct answers.
+
+A workflow template can be defined in a business process management (BPM) tool.
+
+You can start a workflow the same way as starting a cronjob.
+
+You can get real-time notifications via Email after every action is processed.
+
+A workflow can have task-relevant attachments.
+
+Backoffice users can make comments when performing workflow tasks.
+
+1,3,4
+
+A workflow can be started through APIs in the Workflow Module. Which of the following statements regarding the related API services are correct?
+There are two correct answers.
+
+WorkflowProcessingService can be used to start a workflow.
+
+WorkflowService can be used to start a workflow.
+
+WorkflowProcessingService can be used to create a workflow.
+
+WorkflowService can be used to create a workflow.
+
+0,3
+
+Workflow is a subtype of which item type definition in the type system?
+Choose the correct answer.
+
+Job
+
+CronJob
+
+WorkflowTemplate
+
+ServiceLayerJob
+
+1
+
+Activation scripts can be used to start a workflow automatically. Which of the following situations can trigger the evaluation of activation scripts?
+There are three correct answers.
+
+When an item is loaded.
+
+When an item is saved.
+
+When an item is removed.
+
+When an item is created.
+
+When an item is duplicated/cloned.
+
+1,2,3
+
+What is the Commerce Validation Framework capable of?
+There are two correct answers.
+
+Guaranteeing CORRECT VALUES for attributes
+
+Rejecting values that violate certain rules
+
+Blocking a user's ability to save an object which contains an INVALID attribute value
+
+Automatically generating a Validator class implementation in Java
+
+1,2
+
+What are the necessary steps to follow when adding a new validation constraint using the Backoffice Administration Cockpit?
+There are two correct answers.
+
+Creating a Constraint item (instance)
+
+Reloading the validation engine at runtime
+
+Stopping and restarting the server
+
+Editing a *-spring.xml file
+
+Rebuilding the platform
+
+0,1
+
+What tools/mechanisms are available for creating/editing a new constraint?
+There are two correct answers.
+
+Backoffice Administration Cockpit
+
+Backoffice Product Cockpit
+
+ImpEx
+
+SmartEdit
+
+0,2
+
+What essential information is required when creating a new constraint?
+There are three correct answers.
+
+The name of the underlying validator Annotation to which the constraint is linked
+
+The constraint TYPE
+
+Related constraint parameters (For example: min/max, range, or threshold values)
+
+The type and/or attribute being constrained
+
+A custom error or warning message
+
+1,2,3
+
+
+What are the possible severity levels for a constraint?
+There are two correct answers.
+
+Error
+
+Warning
+
+Custom
+
+Blocker
+
+0,1
+
+Which of the following statements regarding page templates, pages, and components in SAP Commerce Cloud are correct?
+There are two correct answers.
+
+A page template can be used to create several pages.​
+
+A page can be created either based on a page template, or directly from scratch.
+
+A component can be directly inserted into a page as well as a page template.​
+
+A component can be shared by different pages or page templates.​
+
+0,3
+
+Which of the following statements are correct about the actions that we can perform in different modes in SmartEdit?​
+There are two correct answers.
+
+We can synchronize the changes about a page level component in the basic edit mode.​
+
+We can remove a page-level component in the basic edit mode.​
+
+We can navigate to different pages in the advanced edit mode. ​
+
+We can edit a page-level component in the advanced edit mode. ​
+
+1,3
+
+
+What can we do to support out-of-the-box personalization of storefront content in SAP Commerce Cloud?
+There are two correct answers.
+
+Big data analysis based on Adobe analytics
+
+Item-based restrictions on CMS items
+
+Intelligent selling Services for SAP Commerce Cloud
+
+CMS restrictions based on components or pages
+
+2,3
+
+Which of the following statements are correct about SAP Commerce Cloud, composable storefront?
+There are two correct answers.
+
+It's a full-stack application.
+
+It requires additional licensing fees.
+
+It’s the official storefront going forward.
+
+It’s a lean Angular-based JavaScript storefront.
+
+2,3
+
+Which of the following statements regarding page slots, content slots, and components in SAP Commerce Cloud are correct?
+There are two correct answers.
+
+Page slots contain components such that if a page is rendered, all the components in those related page slots are displayed.​
+
+A content slot can be associated with a page through a ContentSlotForPage item.​
+
+A page template defines a lot of content slots.​
+
+A component can be shared by several pages or page templates.​
+
+1,3
+
+---Exploring the Technical Essentials of SAP Commerce Cloud---
+
+Which of the following statements regarding the platform module of SAP Commerce Cloud is incorrect?
+Choose the correct answer.
+
+Platform includes a persistence framework for data-storage purposes​
+
+Platform contains many business, system, and infrastructure services​
+
+Platform is the foundation for all capabilities delivered with SAP Commerce Cloud​
+
+Platform can be customized directly to meet different project requirements​
+
+3
+
+Which of the following frontends are offered out-of-the-box in SAP Commerce Cloud?​
+There are two correct answers.
+
+SAP Commerce Cloud composable storefront​
+
+Backoffice with dedicated perspectives for admins, business users, or developers.​
+
+Microsoft ASP-based websites​
+
+SOAP web services-based touch points​
+
+0,1
+
+In SAP Commerce Cloud, features are typically packaged in which of the following units?
+There are two correct answers.
+
+Modules
+
+Extensions
+
+Functions/Methods
+
+Classes
+
+0,1
+
+Which Java Development Kit (JDK) version can you use to compile SAP Commerce Cloud?
+Choose the correct answer.
+
+SAP Machine 17
+
+SAP Machine 11
+
+OpenJDK 17
+
+Oracle JDK 17
+
+0
+
+SAP Commerce Cloud is a multilayered application. Identify the layers from the following options:
+There are three correct answers.
+
+Application Server layer
+
+Front End layer
+
+APIs layer
+
+Security layer
+
+Networking layer
+
+0,1,2
+
+Which of the following statements are correct in relation to extension templates?
+There are two correct answers.
+
+When executing 'ant extgen’, the extension templates are copied to the custom folder
+
+Extension templates are not compiled during the ant build when declared in localextensions.xml
+
+Extension templates are out-of-the-box extensions of SAP Commerce Cloud
+
+Extension template can be directly customized to meet a specific project requirement
+
+0,2
+
+Which Spring technologies are used in SAP Commerce Cloud?
+There are two correct answers.
+
+Spring Security
+
+Spring Web Services
+
+Spring Data JPA (Java Persistence API)
+
+Inversion of Control
+
+0,3
+
+What does the build framework do when you call 'ant' or 'ant all'?
+There are three correct answers.
+
+Compiles all extensions located in the custom folder along with their dependent extensions
+
+Generates model classes according to the definitions in *-items.xml
+
+Updates configuration of the SAP Commerce Server
+
+Collects localization properties files
+
+Updates the database schema according to the definitions in '*-items.xml'
+
+1,2,3
+
+Which of the following requires your attention, regarding extension dependencies?
+There are two correct answers.
+
+Platform module is always compiled first
+
+Cyclic dependencies can be possible with the appropriate configuration
+
+Platform depends on all the other extensions and all extensions are loaded when compiling the platform
+
+Dependency chain determines the *.properties precedence
+
+0,3
+
+Which of the following statements about SAP Commerce Cloud's Initialization and Update processes is true?
+There are two correct answers.
+
+Initialization does not affect existing tables
+
+Initialization creates new tables and new data from scratch
+
+Update results in data loss
+
+Update applies changes to existing data or tables
+
+1,3
