@@ -1594,10 +1594,9 @@ function displayQuestion() {
   let questionHTML;
   const brIndex = q.question.indexOf("<br>");
   if (brIndex !== -1) {
-    // Insert two <br> and wrap the text after with a span
     const before = q.question.slice(0, brIndex);
     const after = q.question.slice(brIndex + 4); // skip '<br>'
-    questionHTML = `${before}<br><br><span class="small-after">${after}</span>`;
+    questionHTML = `${before}<br><span class="small-after">${after}</span>`;
   } else {
     questionHTML = q.question;
   }
