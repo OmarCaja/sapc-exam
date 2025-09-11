@@ -1628,7 +1628,10 @@ window.prevQuestion = function () {
   if (currentQuestionIndex > 0) {
     currentQuestionIndex--;
     displayQuestion();
-    window.scrollTo(0, 0);
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   }
 };
 
@@ -1636,7 +1639,10 @@ window.nextQuestion = function () {
   if (currentQuestionIndex < questions.length - 1) {
     currentQuestionIndex++;
     displayQuestion();
-    window.scrollTo(0, 0);
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   }
 };
 
