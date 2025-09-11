@@ -254,7 +254,7 @@ Customer Interests
 
 0,3
 
-What are the characteristics of a customization?​
+What are the characteristics of a customization?
 There are two correct answers.
 
 It's part of a segment.
@@ -280,7 +280,7 @@ Select the Library tab to create the variation
 
 1,3
 
-Which of the following statements are true regarding the configuration of the customer experience calculation process?​
+Which of the following statements are true regarding the configuration of the customer experience calculation process?
 There are two correct answers.
 
 It is stored in a CxConfig database item.
@@ -326,26 +326,26 @@ There are three correct answers.
 
 Full-text searches from the storefront are translated into a flexible search query.
 
-Generic Search queries are always translated into flexible search queries.​
+Generic Search queries are always translated into flexible search queries.
 
-Requesting the product details page triggers a flexible search query​.
+Requesting the product details page triggers a flexible search query.
 
-The Backoffice advanced search functionality is a more type-safe alternative to flexible search.​
+The Backoffice advanced search functionality is a more type-safe alternative to flexible search.
 
-Flexible search queries are always responded to from the database or cache, and never from Solr.​​
+Flexible search queries are always responded to from the database or cache, and never from Solr.
 
 1,2,4
 
 Which of the following statements about the Search API are correct?
 There are two correct answers.
 
-A SpringBean for a FacetSearchListener is automatically recognized by the Commerce Server after it restart​s.
+A SpringBean for a FacetSearchListener is automatically recognized by the Commerce Server after it restarts.
 
-A Search Query can be created empty or prefilled.​
+A Search Query can be created empty or prefilled.
 
 A Search Query is executed using the facetSearchService.
 
-The FacetSearchService.search() method returns a List​
+The FacetSearchService.search() method returns a List
 
 1,2
 
@@ -365,13 +365,13 @@ REMOVE
 You configured an indexed property of type "text" in your Solr index. Which of the following statements about Solr searches for that property are correct?
 There are two correct answers.
 
-Solr can find a match only for the complete and case sensitive text​.
+Solr can find a match only for the complete and case sensitive text.
 
-When the indexed property value changes, Solr can find it only after a full indexer operation​.
+When the indexed property value changes, Solr can find it only after a full indexer operation.
 
-Solr can find a match for the complete and not case sensitive text​.
+Solr can find a match for the complete and not case sensitive text.
 
-Solr can find even individual tokens of the text​.
+Solr can find even individual tokens of the text.
 
 2,3
 
@@ -400,7 +400,7 @@ Merging order is determined by the list order in the activation set.
 
 Merging order is determined by priority in personalization variations.
 
-All search profiles participate in the merging process.​
+All search profiles participate in the merging process.
 
 1,2
 
@@ -433,7 +433,7 @@ Variations
 
 0,1,3
 
-Which search profile types are supported in the Adaptive Search module?​
+Which search profile types are supported in the Adaptive Search module?
 There are two correct answers.
 
 Multi-Dimensional Search Profile
@@ -459,7 +459,7 @@ Adaptive Search Cockpit
 
 1,3
 
-How can you activate a Search Profile?​
+How can you activate a Search Profile?
 There are two correct answers.
 
 Add it to an activation set.
@@ -484,7 +484,7 @@ Priority
 
 Code
 
-Description​
+Description
 
 1,2,3
 
@@ -574,9 +574,9 @@ Publish a promotion that contains the coupon as a condition.
 What are the out-of-the-box conditions that you can combine with a coupon in a promotion?
 There are two correct answers.
 
-A customer who belongs to a user group.​
+A customer who belongs to a user group.
 
-A customer consents to receiving the newsletter with campaign information.​
+A customer consents to receiving the newsletter with campaign information.
 
 A customer registers an interest in a specific product.
 
@@ -597,7 +597,7 @@ It can be activated for a customer by a direct assignment through ASM.
 
 2,3
 
-What can you configure in a Single-Code Coupon in Backoffice?​
+What can you configure in a Single-Code Coupon in Backoffice?
 There are two correct answers.
 
 Maximum redemptions per customer.
@@ -689,16 +689,16 @@ Creating special structures of items through *-items.xml files.
 
 2
 
-Where can the JDBC logging be enabled or disabled?​
+Where can the JDBC logging be enabled or disabled?
 There are three correct answers.
 
-Via the property db.log.active in a .properties file.​
+Via the property db.log.active in a .properties file.
 
-In the global spring context, configure the JDBC Logging bean.​
+In the global spring context, configure the JDBC Logging bean.
 
-In Java code: de.hybris.platform.util.Config.setParameter("db.log.active", "true").​
+In Java code: de.hybris.platform.util.Config.setParameter("db.log.active", "true").
 
-In SAP Commerce Administration Console, Monitoring > Database > JDBC logging.​
+In SAP Commerce Administration Console, Monitoring > Database > JDBC logging.
 
 In Backoffice, configure the JDBC Logging item.
 
@@ -728,20 +728,20 @@ https://help.sap.com/ (then, narrow the results by searching for "SAP Commerce C
 
 https://community.sap.com/
 
-https://learning.sap.com​
+https://learning.sap.com
 
-HAC (SAP Commerce administration console)​
+HAC (SAP Commerce administration console)
 
 1,2,3
 
 To assure GDPR compliance in SAP Commerce Cloud, which of the following features are implemented and provided out of the box?
 There are two correct answers.
 
-All consent templates and related consents for each customer can be managed directly in Backoffice.​
+All consent templates and related consents for each customer can be managed directly in Backoffice.
 
-A customer can close their account if necessary, and all the customer data is deleted immediately.​
+A customer can close their account if necessary, and all the customer data is deleted immediately.
 
-A personal report (also knows as an audit report) can be generated per request but must be manually removed afterwards.​
+A personal report (also knows as an audit report) can be generated per request but must be manually removed afterwards.
 
 The sample Composable Storefront, for example, Spartacus Electronics Store, enables a customer to manage his/her consents under the "My Account" page.
 
@@ -827,24 +827,24 @@ It looks at the localextensions.xml file.
 What does Spring Security manage in SAP Commerce Cloud?
 There are three correct answers.
 
-Authentication and authorization​
+Authentication and authorization
 
-Access to certain item types​
+Access to certain item types
 
-Access to certain pages of the storefront​
+Access to certain pages of the storefront
 
 Price restriction
 
-Remember me service​
+Remember me service
 
 0,2,4
 
 What does an item-based restriction consist of?
 There are three correct answers.
 
-The items the restriction is applied on ​
+The items the restriction is applied on
 
-The principal (user or user group) the restriction will be applied on​
+The principal (user or user group) the restriction will be applied on
 
 The flexible search query the restriction uses to restrict the items
 
@@ -857,15 +857,15 @@ The item type the restriction is related to
 Which of the following principals can be removed without a problem?
 There are two correct answers.
 
-anonymous​
+anonymous
 
-admingroup​
+admingroup
 
 admin
 
-productmanager​
+productmanager
 
-cmsmanager​
+cmsmanager
 
 3,4
 
@@ -873,22 +873,22 @@ cmsmanager​
 What are the out-of-the-box password security policies in SAP Commerce Cloud?
 There are two correct answers.
 
-regex – uses regular expression to define the formation and length of passwords​
+regex – uses regular expression to define the formation and length of passwords
 
-lock – limits password attempts and applies lock-out​
+lock – limits password attempts and applies lock-out
 
-blacklist – defines a list of passwords that can’t be used ​
+blacklist – defines a list of passwords that can’t be used
 
-duration – defines the period passwords need to be updated​
+duration – defines the period passwords need to be updated
 
 0,2
 
-About the security mechanism: type-based access rights, which of the following statements are correct?​
+About the security mechanism: type-based access rights, which of the following statements are correct?
 There are two correct answers.
 
-It can grant access to individual attributes of types​
+It can grant access to individual attributes of types
 
-It can grant access to some items but deny some other items of the same type​
+It can grant access to some items but deny some other items of the same type
 
 It is effective out-of-the-box in backoffice, integration API and Service Layer API
 
@@ -963,16 +963,16 @@ Implementing ClusterAwareEvent is the only way to handle events asynchronously
 
 1,2
 
-Which of the following statements about the process engine are correct?​
+Which of the following statements about the process engine are correct?
 There are two correct answers.
 
-The most important process engine node type is the end node.​
+The most important process engine node type is the end node.
 
-Action nodes need to perform concrete business logic and/or call other services.​
+Action nodes need to perform concrete business logic and/or call other services.
 
-A process structure can be defined in a BPM tool and imported directly into SAP Commerce Cloud.​
+A process structure can be defined in a BPM tool and imported directly into SAP Commerce Cloud.
 
-The SAP Commerce Process Engine extension allows you to model, support, and monitor business processes.​
+The SAP Commerce Process Engine extension allows you to model, support, and monitor business processes.
 
 1,3
 
@@ -1011,7 +1011,7 @@ Some action implementations return at least one action result, but some don’t
 
 Actions implementation must be declared as Spring beans in  my-extension-spring.xml
 
-If an action cannot perform or complete its work due to a temporary reason, it can be processed again later by throwing a RetryLaterException exception or returning Action.RETRY_RETURN_CODE​
+If an action cannot perform or complete its work due to a temporary reason, it can be processed again later by throwing a RetryLaterException exception or returning Action.RETRY_RETURN_CODE
 
 2,3
 
@@ -1029,31 +1029,31 @@ FlexibleSearchService
 
 1
 
-Which Fraud Detection symptoms exist out-of-the-box? ​
+Which Fraud Detection symptoms exist out-of-the-box?
 There are three correct answers.
 
-First Time Order Symptom​
+First Time Order Symptom
 
-Order Entry Symptom​
+Order Entry Symptom
 
-Order Threshold Symptom​
+Order Threshold Symptom
 
-Order List Symptom​
+Order List Symptom
 
-Scripted Symptom – allows a Groovy script to dynamically define, apply, and evaluate a symptom​
+Scripted Symptom – allows a Groovy script to dynamically define, apply, and evaluate a symptom
 
 0,1,2
 
 Which of the following functionalities are provided by the basecommerce extension?
 There are three correct answers.
 
-Order splitting and Fraud detection​
+Order splitting and Fraud detection
 
-Payment integration​
+Payment integration
 
-Order history and Order versioning​
+Order history and Order versioning
 
-Customer support through ASM (Assisted Service Module)​
+Customer support through ASM (Assisted Service Module)
 
 Definition of typical processes: order-process.xml, consignment-process.xml, return-process.xml
 
@@ -1062,15 +1062,15 @@ Definition of typical processes: order-process.xml, consignment-process.xml, ret
 Which of the following statements regarding the out-of-the-box support for Fraud Detection are correct?
 There are three correct answers.
 
-SAP Commerce provides extensible services for performing internal and/or external fraud checks.​
+SAP Commerce provides extensible services for performing internal and/or external fraud checks.
 
-When the points gathered by matching symptoms exceed the first threshold, a manual order check by a CSA (Customer Support Agent) becomes necessary.​
+When the points gathered by matching symptoms exceed the first threshold, a manual order check by a CSA (Customer Support Agent) becomes necessary.
 
-Each Fraud symptom has an assigned point value, and all applicable points are summed up.​
+Each Fraud symptom has an assigned point value, and all applicable points are summed up.
 
-Symptoms as well as their point values are fixed.​
+Symptoms as well as their point values are fixed.
 
-When the points gathered by matching symptoms exceeds the second threshold, the OOTB behavior is to notify the customer and cancel the order automatically.​
+When the points gathered by matching symptoms exceeds the second threshold, the OOTB behavior is to notify the customer and cancel the order automatically.
 
 0,1,2
 
@@ -1078,11 +1078,11 @@ When the points gathered by matching symptoms exceeds the second threshold, the 
 Which of the following statements regarding the Payment Service Provider (PSP) integration in SAP Commerce Cloud are correct?
 There are two correct answers.
 
-Existing interfaces allow you to integrate external PSPs into SAP Commerce, but none of them are already implemented out-of-the-box.​
+Existing interfaces allow you to integrate external PSPs into SAP Commerce, but none of them are already implemented out-of-the-box.
 
-PSP integration is freely configurable in the order flow. For example, before and/or after the Fraud check.​
+PSP integration is freely configurable in the order flow. For example, before and/or after the Fraud check.
 
-It’s not possible to integrate more than one PSP in SAP Commerce Cloud at the same time.​
+It’s not possible to integrate more than one PSP in SAP Commerce Cloud at the same time.
 
 Several Payment Service Providers are already fully integrated with SAP Commerce out of the box.
 
@@ -1091,13 +1091,13 @@ Several Payment Service Providers are already fully integrated with SAP Commerce
 What does Order Splitting in the basecommerce extension provide out-of-the-box?
 There are two correct answers.
 
-Order Splitting allows orders to be split into several consignments.​
+Order Splitting allows orders to be split into several consignments.
 
 The strategiesList stores a list of strategies for splitting orders (configured as Spring XML declaration). It also allows the addition of custom splitting strategies.
 
-SplitByDeliveryMode and SplitByWarehouse are the only supported OOTB splitting strategies.​
+SplitByDeliveryMode and SplitByWarehouse are the only supported OOTB splitting strategies.
 
-An order containing only one order entry cannot be split further.​
+An order containing only one order entry cannot be split further.
 
 0,1
 
@@ -1316,26 +1316,26 @@ Blocker
 Which of the following statements regarding page templates, pages, and components in SAP Commerce Cloud are correct?
 There are two correct answers.
 
-A page template can be used to create several pages.​
+A page template can be used to create several pages.
 
 A page can be created either based on a page template, or directly from scratch.
 
-A component can be directly inserted into a page as well as a page template.​
+A component can be directly inserted into a page as well as a page template.
 
-A component can be shared by different pages or page templates.​
+A component can be shared by different pages or page templates.
 
 0,3
 
-Which of the following statements are correct about the actions that we can perform in different modes in SmartEdit?​
+Which of the following statements are correct about the actions that we can perform in different modes in SmartEdit?
 There are two correct answers.
 
-We can synchronize the changes about a page level component in the basic edit mode.​
+We can synchronize the changes about a page level component in the basic edit mode.
 
-We can remove a page-level component in the basic edit mode.​
+We can remove a page-level component in the basic edit mode.
 
-We can navigate to different pages in the advanced edit mode. ​
+We can navigate to different pages in the advanced edit mode.
 
-We can edit a page-level component in the advanced edit mode. ​
+We can edit a page-level component in the advanced edit mode.
 
 1,3
 
@@ -1369,13 +1369,13 @@ It’s a lean Angular-based JavaScript storefront.
 Which of the following statements regarding page slots, content slots, and components in SAP Commerce Cloud are correct?
 There are two correct answers.
 
-Page slots contain components such that if a page is rendered, all the components in those related page slots are displayed.​
+Page slots contain components such that if a page is rendered, all the components in those related page slots are displayed.
 
-A content slot can be associated with a page through a ContentSlotForPage item.​
+A content slot can be associated with a page through a ContentSlotForPage item.
 
-A page template defines a lot of content slots.​
+A page template defines a lot of content slots.
 
-A component can be shared by several pages or page templates.​
+A component can be shared by several pages or page templates.
 
 1,3
 
@@ -1384,26 +1384,26 @@ A component can be shared by several pages or page templates.​
 Which of the following statements regarding the platform module of SAP Commerce Cloud is incorrect?
 Choose the correct answer.
 
-Platform includes a persistence framework for data-storage purposes​
+Platform includes a persistence framework for data-storage purposes
 
-Platform contains many business, system, and infrastructure services​
+Platform contains many business, system, and infrastructure services
 
-Platform is the foundation for all capabilities delivered with SAP Commerce Cloud​
+Platform is the foundation for all capabilities delivered with SAP Commerce Cloud
 
-Platform can be customized directly to meet different project requirements​
+Platform can be customized directly to meet different project requirements
 
 3
 
-Which of the following frontends are offered out-of-the-box in SAP Commerce Cloud?​
+Which of the following frontends are offered out-of-the-box in SAP Commerce Cloud?
 There are two correct answers.
 
-SAP Commerce Cloud composable storefront​
+SAP Commerce Cloud composable storefront
 
-Backoffice with dedicated perspectives for admins, business users, or developers.​
+Backoffice with dedicated perspectives for admins, business users, or developers.
 
-Microsoft ASP-based websites​
+Microsoft ASP-based websites
 
-SOAP web services-based touch points​
+SOAP web services-based touch points
 
 0,1
 

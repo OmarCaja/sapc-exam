@@ -1078,7 +1078,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following statements regarding the platform module of SAP Commerce Cloud is incorrect?",
+      "Which of the following statements regarding the platform module of SAP Commerce Cloud is incorrect?<br>Choose the correct answer.",
     options: [
       "Platform includes a persistence framework for data-storage purposes",
       "Platform contains many business, system, and infrastructure services",
@@ -1089,7 +1089,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following frontends are offered out-of-the-box in SAP Commerce Cloud?",
+      "Which of the following frontends are offered out-of-the-box in SAP Commerce Cloud?<br>There are two correct answers.",
     options: [
       "SAP Commerce Cloud composable storefront",
       "Backoffice with dedicated perspectives for admins, business users, or developers.",
@@ -1100,13 +1100,13 @@ let questions = [
   },
   {
     question:
-      "In SAP Commerce Cloud, features are typically packaged in which of the following units?",
+      "In SAP Commerce Cloud, features are typically packaged in which of the following units?<br>There are two correct answers.",
     options: ["Modules", "Extensions", "Functions/Methods", "Classes"],
     correct: [0, 1],
   },
   {
     question:
-      "Which Java Development Kit (JDK) version can you use to compile SAP Commerce Cloud?",
+      "Which Java Development Kit (JDK) version can you use to compile SAP Commerce Cloud?<br>Choose the correct answer.",
     options: [
       "SAP Machine 17",
       "SAP Machine 11",
@@ -1117,7 +1117,7 @@ let questions = [
   },
   {
     question:
-      "SAP Commerce Cloud is a multilayered application. Identify the layers from the following options:",
+      "SAP Commerce Cloud is a multilayered application. Identify the layers from the following options:<br>There are three correct answers.",
     options: [
       "Application Server layer",
       "Front End layer",
@@ -1129,7 +1129,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following statements are correct in relation to extension templates?",
+      "Which of the following statements are correct in relation to extension templates?<br>There are two correct answers.",
     options: [
       "When executing 'ant extgen’, the extension templates are copied to the custom folder",
       "Extension templates are not compiled during the ant build when declared in localextensions.xml",
@@ -1139,7 +1139,8 @@ let questions = [
     correct: [0, 2],
   },
   {
-    question: "Which Spring technologies are used in SAP Commerce Cloud?",
+    question:
+      "Which Spring technologies are used in SAP Commerce Cloud?<br>There are two correct answers.",
     options: [
       "Spring Security",
       "Spring Web Services",
@@ -1150,7 +1151,7 @@ let questions = [
   },
   {
     question:
-      "What does the build framework do when you call 'ant' or 'ant all'?",
+      "What does the build framework do when you call 'ant' or 'ant all'?<br>There are three correct answers.",
     options: [
       "Compiles all extensions located in the custom folder along with their dependent extensions",
       "Generates model classes according to the definitions in *-items.xml",
@@ -1162,7 +1163,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following requires your attention, regarding extension dependencies?",
+      "Which of the following requires your attention, regarding extension dependencies?<br>There are two correct answers.",
     options: [
       "Platform module is always compiled first",
       "Cyclic dependencies can be possible with the appropriate configuration",
@@ -1173,7 +1174,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following statements about SAP Commerce Cloud's Initialization and Update processes is true?",
+      "Which of the following statements about SAP Commerce Cloud's Initialization and Update processes is true?<br>There are two correct answers.",
     options: [
       "Initialization does not affect existing tables",
       "Initialization creates new tables and new data from scratch",
@@ -1184,7 +1185,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following actions are possible within your custom backoffice extension?",
+      "Which of the following actions are possible within your custom backoffice extension?<br>There are three correct answers.",
     options: [
       "You can implement custom widget types to be used in Backoffice",
       "You can add new widget instances into Backoffice",
@@ -1196,7 +1197,7 @@ let questions = [
   },
   {
     question:
-      "What actions can you perform in the Application Orchestrator within Backoffice?",
+      "What actions can you perform in the Application Orchestrator within Backoffice?<br>There are two correct answers.",
     options: [
       "You can reset your changes to the default configuration",
       "You can create a new widget type",
@@ -1207,7 +1208,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following statements are correct regarding Backoffice configuration xml files?",
+      "Which of the following statements are correct regarding Backoffice configuration xml files?<br>There are three correct answers.",
     options: [
       "*backoffice-config.xml contains the application mashup for Backoffice",
       "*backoffice-widgets.xml contains the definitions of widget instances",
@@ -1219,7 +1220,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following responses regarding Backoffice and Backoffice Framework are correct?",
+      "Which of the following responses regarding Backoffice and Backoffice Framework are correct?<br>There are two correct answers.",
     options: [
       "Backoffice Framework is the SAP Commerce single user interface for all backend business tools.",
       "Backoffice is built for both administrators and business users to manage any type of data within the SAP Commerce.",
@@ -1230,7 +1231,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following files are required when defining a custom widget type?",
+      "Which of the following files are required when defining a custom widget type?<br>There are two correct answers.",
     options: [
       "A definitions.xml, to store the essential information about the custom widget type",
       "A zk file for rendering the view of the custom widget instances",
@@ -1241,7 +1242,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following responses are accurate regarding item types in items.xml?",
+      "Which of the following responses are accurate regarding item types in items.xml?<br>There are three correct answers.",
     options: [
       "You can extend an existing item type",
       "You can define a new item type",
@@ -1253,7 +1254,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following responses are correct regarding deployment in the context of data modeling?",
+      "Which of the following responses are correct regarding deployment in the context of data modeling?<br>There are two correct answers.",
     options: [
       "A new deployment gets a type code automatically assigned if not explicitly specified",
       "A deployment specifies to create a new table for a custom item type",
@@ -1264,7 +1265,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following responses are correct regarding relations and collections?",
+      "Which of the following responses are correct regarding relations and collections?<br>There are two correct answers.",
     options: [
       "It is considered a best practice to use a relation instead of a collection type when doing data modeling",
       "Searching for a value in a collection, particularly a large one, is more efficient than searching in a relation",
@@ -1275,7 +1276,7 @@ let questions = [
   },
   {
     question:
-      "When working with localized data, which of the following statements are true?",
+      "When working with localized data, which of the following statements are true?<br>There are two correct answers.",
     options: [
       'You can localize an attribute of any type by adding the text "localized:" before the type’s name',
       "A localized attribute contains language-specific values",
@@ -1286,7 +1287,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following options correctly states all the types that can be defined in items.xml?",
+      "Which of the following options correctly states all the types that can be defined in items.xml?<br>Choose the correct answer.",
     options: [
       "Primitive types, Collections, Enumerations, Maps, Relations, and Composed types",
       "Atomic types, Vectors, Enumerations, Maps, Relations, and Composed types",
@@ -1297,7 +1298,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following accurately describe the out-of-the-box data models in SAP Commerce Cloud's product content management?",
+      "Which of the following accurately describe the out-of-the-box data models in SAP Commerce Cloud's product content management?<br>There are three correct answers.",
     options: [
       "Products are the basic element of a product catalog and must always be related to a certain catalog version",
       "Categories can have multiple parent categories",
@@ -1309,7 +1310,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following key facts correctly represent classification systems?",
+      "Which of the following key facts correctly represent classification systems?<br>There are three correct answers.",
     options: [
       "Classification system depends on related product catalogs",
       "Classification simplifies management of frequently changing product data",
@@ -1321,7 +1322,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following product modeling approaches are offered out-of-the-box in SAP Commerce Cloud?",
+      "Which of the following product modeling approaches are offered out-of-the-box in SAP Commerce Cloud?<br>There are three correct answers.",
     options: [
       "Parametric Products",
       "Classification",
@@ -1333,7 +1334,7 @@ let questions = [
   },
   {
     question:
-      "How do you compare the classification approach with the type system approach?",
+      "How do you compare the classification approach with the type system approach?<br>There are three correct answers.",
     options: [
       "Type system approach can be used for attributes that belong to most items",
       "Classification approach can be used for situations where the available attributes change frequently or for attributes that are shared by a small range of products",
@@ -1345,7 +1346,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following statements about catalog synchronization are correct?",
+      "Which of the following statements about catalog synchronization are correct?<br>There are two correct answers.",
     options: [
       "Synchronization always copies specified content from the staged catalog version to the online catalog version.",
       "Synchronization can affect the entire catalog version, or only selected categories or products.",
@@ -1356,7 +1357,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following responses is correct regarding the UPDATE operation?",
+      "Which of the following responses is correct regarding the UPDATE operation?<br>Choose the correct answer.",
     options: [
       "You must specify unique=true to at least one attribute of the related item type",
       "You cannot update more than one item in one ImpEx script",
@@ -1367,7 +1368,7 @@ let questions = [
   },
   {
     question:
-      "When referencing another item in ImpEx, attention can be applied to which of the following responses?",
+      "When referencing another item in ImpEx, attention can be applied to which of the following responses?<br>There are two correct answers.",
     options: [
       "You cannot reference another item if it has no business key",
       "You can use document ID to replace a business key for referencing another item",
@@ -1377,7 +1378,8 @@ let questions = [
     correct: [1, 2],
   },
   {
-    question: "Which of the following statements is a valid ImpEx header?",
+    question:
+      "Which of the following statements is a valid ImpEx header?<br>Choose the correct answer.",
     options: [
       "INSERT_UPDATE Customer;uid;name",
       "INSERT Customer;uid;name",
@@ -1387,7 +1389,8 @@ let questions = [
     correct: [1],
   },
   {
-    question: "Which of the following statements about ImpEx are true?",
+    question:
+      "Which of the following statements about ImpEx are true?<br>There are two correct answers.",
     options: [
       "It is closely related to database",
       "You can use ImpEx to create, update, export, and remove items",
@@ -1397,7 +1400,7 @@ let questions = [
     correct: [1, 3],
   },
   {
-    question: "Where can you launch ImpEx?",
+    question: "Where can you launch ImpEx?<br>There are two correct answers.",
     options: [
       "In Backoffice",
       "Through API Invocation",
@@ -1407,7 +1410,8 @@ let questions = [
     correct: [0, 1],
   },
   {
-    question: "What are the major features of Flexible Search?",
+    question:
+      "What are the major features of Flexible Search?<br>There are two correct answers.",
     options: [
       "It is expressed in terms of database tables and columns in SAP Commerce",
       "Its query will not go through the cache",
@@ -1418,13 +1422,13 @@ let questions = [
   },
   {
     question:
-      "Which of the following are valid keywords and operators in Flexible Search?",
+      "Which of the following are valid keywords and operators in Flexible Search?<br>There are two correct answers.",
     options: ["ASC", "DISTINCTED", "LIKE", "COMBINE"],
     correct: [0, 2],
   },
   {
     question:
-      "Which of the following statements apply when writing Flexible Search queries related to relations?",
+      "Which of the following statements apply when writing Flexible Search queries related to relations?<br>There are two correct answers.",
     options: [
       "For one-to-many relation, you should know the column name of the 'many' side table",
       "For many-to-many relation, you don’t need to mention the relation in your flexible search query",
@@ -1435,7 +1439,7 @@ let questions = [
   },
   {
     question:
-      "What are the best practices to follow when building flexible search queries in Java code?",
+      "What are the best practices to follow when building flexible search queries in Java code?<br>There are two correct answers.",
     options: [
       "When comparing date values, truncate them to use caching of flexible search results",
       "Directly use model attribute names and type names in flexible search queries",
@@ -1446,7 +1450,7 @@ let questions = [
   },
   {
     question:
-      "Regarding transaction management in SAP Commerce Cloud, which of the following are correct?",
+      "Regarding transaction management in SAP Commerce Cloud, which of the following are correct?<br>There are two correct answers.",
     options: [
       "You can use the tx XML schema",
       "You can use the SAP Commerce Transaction API",
@@ -1456,7 +1460,8 @@ let questions = [
     correct: [0, 1],
   },
   {
-    question: "What is the service layer in SAP Commerce Cloud?",
+    question:
+      "What is the service layer in SAP Commerce Cloud?<br>Choose the correct answer.",
     options: [
       "It is the layer where data is persisted into the database",
       "It is the layer where data is rendered as RESTful web services response",
@@ -1467,7 +1472,7 @@ let questions = [
   },
   {
     question:
-      "Regarding model classes, which of the following statements is not correct?",
+      "Regarding model classes, which of the following statements is not correct?<br>Choose the correct answer.",
     options: [
       "Model classes only have getters and setters, for instance, they don’t implement any business logic",
       "Model classes are all generated in a predefined folder in the platform when ant is executed",
@@ -1478,7 +1483,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following is not a supported function of modelService?",
+      "Which of the following is not a supported function of modelService?<br>Choose the correct answer.",
     options: [
       "Load models with modelService.get()",
       "Update models with modelService.update()",
@@ -1489,7 +1494,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following statements are correct regarding Data Transfer Objects (DTOs)?",
+      "Which of the following statements are correct regarding Data Transfer Objects (DTOs)?<br>There are two correct answers.",
     options: [
       "DTOs carry the final data to be passed on to the persistence layer",
       "DTO classes can be generated via a declaration in *-beans.xml",
@@ -1500,7 +1505,7 @@ let questions = [
   },
   {
     question:
-      "Which of the following does the commercefacades extension provide?",
+      "Which of the following does the commercefacades extension provide?<br>There are two correct answers.",
     options: [
       "ShoppingFacade to handle the shopping phase",
       "OrderFacade to manage the order placement process",
@@ -1510,7 +1515,8 @@ let questions = [
     correct: [2, 3],
   },
   {
-    question: "What can you do with a populator?",
+    question:
+      "What can you do with a populator?<br>There are two correct answers.",
     options: [
       "You can call other SAP Commerce services to implement your custom calculation for the value population",
       "You should leave the custom calculation to the converter and only concentrate on setting values in the populator",
@@ -1521,18 +1527,18 @@ let questions = [
   },
   {
     question:
-      'You have defined two independent extensions. (1) extension1-beans.xml:(2) extension2-beans.xml: When you execute "ant all", what will happen?',
+      'You have defined two independent extensions. (1) extension1-beans.xml:(2) extension2-beans.xml: When you execute "ant all", what will happen?<br>Choose the correct answer.',
     options: [
       "Ant fails to build, because we can’t define the same DTO class in two different extensions",
       "Ant build is successful, with only class A generated in the platform extension",
-      "Ant build is successful, with two classes of A generated in the two different extensions",
+      "Ant build is successful, with two classes of A generated in the two different extensions ",
       "Ant fails to build, because the compiler doesn’t know from which extension the class A can be generated first",
     ],
     correct: [1],
   },
   {
     question:
-      "You extended the product type by injecting an additional attribute to the product type. You also want to show the new attribute value on the product detail page. What should you do to proceed?",
+      "You extended the product type by injecting an additional attribute to the product type. You also want to show the new attribute value on the product detail page. What should you do to proceed?<br>Choose the correct answer.",
     options: [
       "The new attribute will be handled by the default product converter automatically",
       "Extend the product DTO to include the new attribute, then do a mapping from the new attribute in items.xml to the beans.xml, so that the default product converter can populate the value directly",
