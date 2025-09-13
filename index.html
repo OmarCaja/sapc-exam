@@ -13,10 +13,42 @@
         <div class="main-center-container">
             <div class="quiz-wrapper">
                 <h1>SAPC Training</h1>
-                <div id="counterDiv"></div>
-                <div id="quizContainer"></div>
-                <button id="submitBtn" style="display: none">Submit</button>
-                <div id="result" class="result"></div>
+
+                <!-- Selection Screen -->
+                <div id="selectionScreen" class="selection-screen">
+                    <div class="selection-text">
+                        <p>Choose your quiz set to begin:</p>
+                    </div>
+
+                    <div class="quiz-selector">
+                        <div class="quiz-option" data-quiz="1">
+                            <h3>SAPC questions from training</h3>
+                            <p>Training SAPC questions</p>
+                            <div class="question-count" id="quiz1Count">
+                                0 questions
+                            </div>
+                        </div>
+                        <div class="quiz-option" data-quiz="2">
+                            <h3>Certification questions set</h3>
+                            <p>Question from SAPC certification exams</p>
+                            <div class="question-count" id="quiz2Count">
+                                0 questions
+                            </div>
+                        </div>
+                    </div>
+
+                    <button id="startQuizBtn" class="start-btn" disabled>
+                        Start Quiz
+                    </button>
+                </div>
+
+                <!-- Quiz Screen -->
+                <div id="quizScreen" class="quiz-screen" style="display: none">
+                    <div id="counterDiv"></div>
+                    <div id="quizContainer"></div>
+                    <button id="submitBtn" style="display: none">Submit</button>
+                    <div id="result" class="result"></div>
+                </div>
             </div>
         </div>
         <script src="quiz.js"></script>

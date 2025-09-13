@@ -47,6 +47,99 @@ h1 {
     letter-spacing: 1px;
     font-size: 1.6em;
 }
+
+/* Selection Screen Styles */
+.selection-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quiz-screen {
+    display: flex;
+    flex-direction: column;
+}
+.selection-text {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.selection-text p {
+    color: #bfc5ce;
+    font-size: 1.1em;
+    margin: 0;
+}
+.quiz-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    margin-bottom: 2em;
+}
+.quiz-option {
+    background: #23262b;
+    border: 2px solid #3d4250;
+    border-radius: 12px;
+    padding: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.quiz-option:hover {
+    border-color: #4fa3e3;
+    background: #31343a;
+    box-shadow: 0 2px 8px rgba(79, 163, 227, 0.15);
+}
+.quiz-option.selected {
+    border-color: #4fa3e3;
+    background: #31343a;
+    box-shadow: 0 2px 8px rgba(79, 163, 227, 0.25);
+}
+.quiz-option h3 {
+    margin: 0 0 0.5em 0;
+    color: #a8c0e0;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.quiz-option p {
+    margin: 0 0 0.8em 0;
+    color: #bfc5ce;
+    font-size: 0.95em;
+    line-height: 1.3;
+}
+.question-count {
+    color: #4fa3e3;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+.start-btn {
+    font-size: 1.12em;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 9px;
+    background: #00b894;
+    color: #f0f6fa;
+    font-weight: 600;
+    cursor: pointer;
+    transition:
+        background 0.22s,
+        transform 0.18s,
+        box-shadow 0.17s;
+    box-shadow: 0 2px 8px rgba(0, 184, 148, 0.2);
+    min-width: 60%;
+    min-height: 3em;
+    outline: none;
+}
+.start-btn:active,
+.start-btn:focus {
+    background: #008066;
+    outline: 2px solid #4fa3e3;
+}
+.start-btn:disabled {
+    background: #444950;
+    color: #bfc5ce;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
 #counterDiv {
     background: #31343a;
     color: #a8c0e0;
@@ -192,6 +285,12 @@ button#submitBtn:focus {
         box-shadow: 0 4px 24px rgba(10, 13, 18, 0.25);
         background: #282b31;
     }
+    .quiz-selector {
+        gap: 0.8em;
+    }
+    .quiz-option {
+        padding: 1em;
+    }
 }
 @media (max-width: 400px) {
     html {
@@ -202,5 +301,11 @@ button#submitBtn:focus {
     }
     .options label {
         font-size: 0.98em;
+    }
+    .quiz-option h3 {
+        font-size: 1.1em;
+    }
+    .quiz-option p {
+        font-size: 0.9em;
     }
 }
