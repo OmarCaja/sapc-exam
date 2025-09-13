@@ -514,7 +514,7 @@ property values.
 D. Define a localized Passport attribute for the Student type in
 myext/resources/localization/myextlocales_XY.properties.
 
-1,2
+2
 
 51. In SmartEdit, what can you do with variations defined for a customization? Note: There are 3
 correct answers to this question.
