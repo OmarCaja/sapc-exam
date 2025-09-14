@@ -2376,7 +2376,7 @@ let questions2 = [
       "Extend the default implementation of the method to handle the new parameter.",
       "Extend the default strategy, which is called by the method, to handle the new parameter.",
     ],
-    correct: [0, 3],
+    correct: [1, 2],
   },
   {
     question:
@@ -2639,7 +2639,7 @@ let questions2 = [
       "Ensure that only one of the extensions is included in the build.",
       "In the bean's XML definition in extension B, use the parent attribute to specify the core bean.",
     ],
-    correct: [0, 3],
+    correct: [0, 2],
   },
   {
     question:
@@ -2650,7 +2650,7 @@ let questions2 = [
       "It allows you to manipulate a parent-child hierarchy of CMS LinkComponent objects.",
       "It allows you to manipulate a hierarchy of CMS Navigation Node items, each of which may contain a CMSNavigationEntry.",
     ],
-    correct: [2, 3],
+    correct: [0, 3],
   },
   {
     question:
@@ -2689,7 +2689,7 @@ let questions2 = [
       "To eliminate unnecessary data that are provided by complex objects",
       "To store the configuration of the rule engine",
     ],
-    correct: [0, 1],
+    correct: [1, 2],
   },
   {
     question:
