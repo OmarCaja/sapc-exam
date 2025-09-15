@@ -1871,7 +1871,7 @@ let questions2 = [
     question:
       "When you define an aspect in your manifest.json file, what types of information should you provide?<br>Note: There are 2 correct answers to this question.",
     options: ["properties", "addons", "webapps", "extensions"],
-    correct: [2, 3],
+    correct: [0, 3],
   },
   {
     question:
@@ -2672,7 +2672,7 @@ let questions2 = [
       "Index Configuration",
       "Catalog version",
     ],
-    correct: [2],
+    correct: [0],
   },
   {
     question:
