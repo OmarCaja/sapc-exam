@@ -2338,7 +2338,7 @@ let questions2 = [
       "Extend the default implementation of the method to handle the new parameter.",
       "Extend the default strategy, which is called by the method, to handle the new parameter.",
     ],
-    correct: [1, 2],
+    correct: [1, 3],
   },
   {
     question:
