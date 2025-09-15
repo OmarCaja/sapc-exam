@@ -1592,17 +1592,6 @@ let questions2 = [
   },
   {
     question:
-      "You are creating a business process (mybusinessprocess) that requires an action (actionB) to pass an info String value to another action (actionE) occurring later in the process. What do you need to do to make this possible?<br>Note: There are 2 correct answers to this question.",
-    options: [
-      "Create a myBusinessProcess item type that extends BusinessProcess and adds an info String property. Use an instance of this type to start the process in your Java code with businessProcessService.startProcess(new myBusinessProcessModel).",
-      "Create a myBusinessProcess item type that extends BusinessProcess and adds an info String property. Specify myBusinessProcessModel as the processClass argument to the process",
-      "Create an event myEvent that extends the AbstractProcessEvent and adds an info String property. Register the target action as a listener for this event. Fire the event with eventService.publishEvent(myEvent).",
-      "In the mybusinessprocess.xml definition file, define an info event and configure actionB as the event's originator and actionE as its target. Trigger the event in the class implementing actionB using businessProcessService.triggerEvent(info).",
-    ],
-    correct: [0, 1],
-  },
-  {
-    question:
       "When using Monitoring Support in the Integration API Module, what should you pay attention to?<br>Note: There are 2 correct answers to this question.",
     options: [
       "You can monitor the inbound integration requests using the Meta API.",
@@ -1666,7 +1655,7 @@ let questions2 = [
       "Force-delete an integration object even if it is associated with an InboundChannelConfiguration (ICC).",
       "Export the configuration types so that they can be imported into a target system.",
     ],
-    correct: [0, 3],
+    correct: [1, 3],
   },
   {
     question:
@@ -1688,7 +1677,7 @@ let questions2 = [
       "Extend a pre-defined event DTO in a custom beans.xml.",
       "Create a new DTO in a beans.xml file.",
     ],
-    correct: [1, 3],
+    correct: [2, 3],
   },
   {
     question:
@@ -1746,17 +1735,6 @@ let questions2 = [
   },
   {
     question:
-      'Your system contains a search restriction with the following parameters: Type: Product User: anonymous. Restriction: 1=0. There is a product "Candle" in the online catalog and a variant product "PinkCandle" in the online catalog. The system renders the Product Detail Page for Pink Candle using the following flexible search query: "SELECT {pk} FROM {VariantProduct} WHERE {code}="PinkCandle". What happens next?',
-    options: [
-      "The flexible search query returns a null value.",
-      'The flexible search query returns "PinkCandle".',
-      "The flexible search query returns an SQL exception.",
-      "The flexible search query returns an empty list.",
-    ],
-    correct: [3],
-  },
-  {
-    question:
       "How can you create asynchronous events in the SAP Commerce Cloud platform?<br>Note: There are 2 correct answers to this question.",
     options: [
       "Implement the ClusterAwareEvent interface.",
@@ -1804,7 +1782,7 @@ let questions2 = [
       "More than one variation in a customization can be triggered at the same time.",
       "Give the customer a coupon if a variation is in effect.",
     ],
-    correct: [0, 2, 3],
+    correct: [1, 2, 4],
   },
   {
     question:
@@ -1835,16 +1813,6 @@ let questions2 = [
     correct: [0, 2],
   },
   {
-    question: "What should you pay attention to when connecting two widgets?",
-    options: [
-      "The output socket's type does not have to be the same as the input socket's type.",
-      "The input socket's type should be the same as the output socket's type.",
-      "The output socket's type must be the same as the input socket type.",
-      "The input socket's type must be a sub type of a composed item type.",
-    ],
-    correct: [2],
-  },
-  {
     question:
       "How can CronJobs be started or aborted?<br>Note: There are 3 correct answers to this question.",
     options: [
@@ -1866,12 +1834,6 @@ let questions2 = [
       "Create models using modelService.create( ).",
     ],
     correct: [2, 3],
-  },
-  {
-    question:
-      "When you define an aspect in your manifest.json file, what types of information should you provide?<br>Note: There are 2 correct answers to this question.",
-    options: ["properties", "addons", "webapps", "extensions"],
-    correct: [0, 3],
   },
   {
     question:
@@ -2052,7 +2014,7 @@ let questions2 = [
       "Use WorkflowProcessingService to create and start a workflow.",
       "Use the 'Create Workflow' button in the Editor area of the selected workflow template in Backoffice.",
     ],
-    correct: [0, 2, 4],
+    correct: [0, 1, 4],
   },
   {
     question:
@@ -2179,8 +2141,8 @@ let questions2 = [
     question:
       "You need to add a new Cockpit to Backoffice to implement new features for a business user role.<br>Which tasks are required?<br>Note: There are 2 correct answers to this question.",
     options: [
-      "Configure an existing layout widget in <myextension>-backoffice-config.xml.",
-      "Add a new layout widget in <myextension>-backoffice-widgets.xml.",
+      "Configure an existing layout widget in myextension-backoffice-config.xml.",
+      "Add a new layout widget in myextension-backoffice-widgets.xml.",
       "Create a bean for the new cockpit.",
       "Create or reuse a Backoffice extension with the proper meta information.",
     ],
@@ -2218,7 +2180,7 @@ let questions2 = [
       "A strategy can reference one or more product mixes.",
       "A merchandising carousel can use one or more strategies.",
     ],
-    correct: [0, 2],
+    correct: [1, 3],
   },
   {
     question:
@@ -2274,7 +2236,7 @@ let questions2 = [
       "Show different content in a slot if a variation is in effect.",
       "Apply a variation to customers who explicitly do not match a segment.",
     ],
-    correct: [1, 2],
+    correct: [2, 3],
   },
   {
     question:
@@ -2301,7 +2263,7 @@ let questions2 = [
   },
   {
     question:
-      "You need to create a new promotion based on customer reviews for a product. You create an extension called customPromotion with a new Rule Aware Object to keep customer reviews.<br>In which file will you define this new Rule Aware Object?",
+      "You need to create a new promotion based on customer reviews for a product. You create an extension called customPromotion with a new Rule Aware Object to keep customer reviews. In which file will you define this new Rule Aware Object?",
     options: [
       "In the customPromotion-backoffice-config.xml file",
       "In the customPromotion-beans.xml file",
@@ -2331,7 +2293,7 @@ let questions2 = [
       "Change the EDMX file in the EDMX editor using the Metadata viewer.",
       "Download the audit report containing the modification history of the integration object.",
     ],
-    correct: [1, 3, 4],
+    correct: [0, 2, 4],
   },
   {
     question:
@@ -2467,28 +2429,6 @@ let questions2 = [
       "After the order has been completely sourced",
     ],
     correct: [1],
-  },
-  {
-    question:
-      "Where are enumerations stored?<br>Note: There are 2 correct answers to this question.",
-    options: [
-      "Dynamic enumerations are stored in memory only.",
-      "Dynamic enumerations are stored in the database.",
-      "Non-dynamic enumerations are stored as enumeration classes.",
-      "Non-dynamic enumerations are stored as HybrisEnumValue objects.",
-    ],
-    correct: [1, 2],
-  },
-  {
-    question:
-      "What does the Cloud Portal application enable you to do?<br>Note: There are 2 correct answers to this question.",
-    options: [
-      "Set up and deploy SAP Commerce Cloud in the public cloud.",
-      "Create and configure endpoints that are tied to configured aspects.",
-      "Generate new passwords for admin and anonymous users.",
-      "Review the page load times of your environments.",
-    ],
-    correct: [0, 1],
   },
   {
     question:
@@ -2628,7 +2568,7 @@ let questions2 = [
       "They control access to specific items of a given type",
       "They affect every user role in SAP Commerce Cloud.",
     ],
-    correct: [2],
+    correct: [0],
   },
   {
     question:
@@ -2639,7 +2579,7 @@ let questions2 = [
       "Ensure that only one of the extensions is included in the build.",
       "In the bean's XML definition in extension B, use the parent attribute to specify the core bean.",
     ],
-    correct: [0, 2],
+    correct: [0, 1],
   },
   {
     question:
@@ -2651,17 +2591,6 @@ let questions2 = [
       "It allows you to manipulate a hierarchy of CMS Navigation Node items, each of which may contain a CMSNavigationEntry.",
     ],
     correct: [0, 3],
-  },
-  {
-    question:
-      "You are creating a new SolrIndexedProperty item as a facet and want to define it using facet ranges. What do you need to do to achieve that?",
-    options: [
-      "Manually create SolrValueRange items to define the range boundaries. Assign the SolrValueRange items to a SolrIndexedProperty item.",
-      "Manually create SolrValueRange items to define the range boundaries. Create a SolrValueRangeSet, add SolrValueRange items, and add to a SolrIndexedProperty item.",
-      "Use sample data to automatically generate SolrValueRange items. Assign the SolrValueRange items to a SolrIndexedProperty item.",
-      "Create SolrValueRange items to define the range boundaries. Add them to a SolrIndexedProperty item.",
-    ],
-    correct: [1],
   },
   {
     question:
